@@ -76,22 +76,19 @@ body{
 /* jumbotron */
 .jumbotron{
   width: 100vw;
-  height: 1000px;
+  height: 800px;
+  margin: 0 auto;
   background-color: #B4D0E7;
   position: relative;
 }
 
-.container-jumbo{
-  width: 80%;
-  height: 1100px;
-  margin: 0 auto; 
-}
-
 .jumbo-content{
+  width: 60%;
+  margin: 0 auto;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -25%);
 }
 
 .jumbo-content h1{
