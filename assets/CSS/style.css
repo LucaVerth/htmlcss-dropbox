@@ -97,3 +97,21 @@ body{
 .jumbo-content h1{
   font-size: 65px;
 }
+
+.jumbotext{
+  width: 30%;
+  padding-top: 30px;
+}
+
+.jumboimg{
+  width: 70%;
+  padding-top: 30px;
+}
+
+.jumboimg img{
+  width: 100%;
+}
+
+.jumboimg, .jumbotext{
+  float: left;
+} 
