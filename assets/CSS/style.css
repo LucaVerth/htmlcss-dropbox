@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+
+}
+
+/* HEADER */
+.main-head{
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+}
+
+.main-head section{
+  position: relative;
+}
+
+.main-head-left, .main-head-right{
+  width: 100%;
+  height: inherit;
+  line-height: 70px;
+  padding-left: 30px;
+}
+
+.main-head-right{
+  position: absolute;
+  text-align: right;
+  top: 0;
+  right: 0;
+  padding-right: 30px;
+}
+
+#headlogo{
+  margin-top: 21px;
+}
+
+.linkshead-left ul li, .linkshead-right ul li{
+  display: inline;
+  list-style: none;
+}
+
+.linkshead-left ul li a, .linkshead-right ul li a{
+  text-decoration: none;
+  color: #000;
+  padding-left: 30px;
+}
+
+.logo, .linkshead-left{
+  float: left;
+}
+
+.btn, .linkshead-right{
+  float: right;
+}
+
+.main-head-left, .main-head-right{
+  float: left;
+}
+
