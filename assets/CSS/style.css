@@ -35,6 +35,10 @@ body{
   color: #fff;
 }
 
+.btn.big{
+  padding: 10px 30px;
+}
+
 .anchor a:visited{
   color: #000;
 }
@@ -158,16 +162,17 @@ main .checkbox input{
 }
 
 .planscard{
+  height: 1200px;
   margin-top: 50px;
-  min-height: 800px;
 }
 
-/* card content */
+/* card content top and botttom */
 .planscard .plan{
-  width: calc(100% / 3);
-  min-height: 800px;
+  width: calc((100% / 3) - 45px);
+  height: 1150px;
   float: left;
   border: 1px solid gray;
+  margin-right: 15px;
 }
 
 .top-icon{
@@ -180,19 +185,16 @@ main .checkbox input{
 
 .card-container{
   width: 85%;
-  min-height: 500px;
   margin: 0 auto;
   margin-top: 40px;
 }
 
 .plan-info{
   margin-bottom: 50px;
-  background-color: #ff0000;
 }
 
 .plan-info2{
   margin-bottom: 30px;
-  background-color: #008000;
 }
 
 .plan-info span{
@@ -206,15 +208,47 @@ main .checkbox input{
   padding-bottom: 10px;
 }
 
-.plan-info2 ul li{
-  list-style-type: none;
-  padding-bottom: 30px;
-}
-
 .plan-info ul li:first-child{
   font-weight: bold;
 }
 
 .plan-info ul li:last-child{
   color: grey;
+}
+
+.plan-info2 ul li{
+  list-style-type: none;
+  padding-bottom: 30px;
+}
+
+.card-button{
+  margin-bottom: 30px;
+}
+
+.line:after{
+  width: 60px;
+  margin: 40px 0;
+  content: "";
+  display: block;
+  border-bottom: 1px solid grey;
+}
+
+.plan-bot-sec span{
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.plan-bot-sec ul{
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.plan-bot-sec ul li{
+  padding-bottom: 30px;
+}
+
+.plan-bot-sec ul li:before{
+  color: blue;
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
 }
