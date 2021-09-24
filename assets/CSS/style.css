@@ -173,7 +173,7 @@ main .checkbox input{
   margin-top: 50px;
 }
 
-/* card content top and botttom */
+/* plan cards  */
 .planscard .plan{
   width: calc(90% / 3);
   height: 1150px;
@@ -266,6 +266,7 @@ main .checkbox input{
   content: "\f00c";
 }
 
+/* enterprise plan card */
 .plan-lower{
   width: 100%;
   height: 270px;
@@ -331,4 +332,36 @@ main .checkbox input{
 
 .middle-content{
   margin-bottom: 40px;
+}
+
+/* bottom section main */
+.business-section{
+  margin-top: 70px;
+}
+
+.business-title{
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.row{
+  margin-bottom: 80px;
+}
+
+.column{
+  float: left;
+  padding-right: 30px;
+}
+
+.row .column{
+  width: calc(100% / 3);
+}
+
+.row .column img{
+  width: 100%;
+}
+
+.row .column h2{
+  padding-bottom: 30px;
 }
