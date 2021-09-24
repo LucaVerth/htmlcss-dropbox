@@ -8,7 +8,7 @@ body{
   font-family: 'Open Sans', sans-serif;;
 }
 
-.clearfix::after{
+.clearfix:after{
   content: "";
   display: table;
   clear: both;
@@ -21,6 +21,7 @@ body{
 
 /* buttons settings */
 .btn{
+  color: #fff;
   background-color: #0061FF;
   padding: 5px 15px;
   text-decoration: none;
@@ -32,11 +33,17 @@ body{
 }
 
 .btn.white{
-  color: #fff;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid black;
 }
 
 .btn.big{
   padding: 10px 30px;
+}
+
+.btn.extra{
+  padding: 10px 90px;
 }
 
 .anchor a:visited{
@@ -102,7 +109,7 @@ header{
 /* jumbotron */
 .jumbotron{
   width: 100%;
-  height: 800px;
+  height: 850px;
   background-color: #B4D0E7;
 }
 
@@ -168,11 +175,17 @@ main .checkbox input{
 
 /* card content top and botttom */
 .planscard .plan{
-  width: calc((100% / 3) - 45px);
+  width: calc(90% / 3);
   height: 1150px;
-  float: left;
   border: 1px solid gray;
-  margin-right: 15px;
+}
+
+.plan.margin1{
+  margin-right: 67px;
+}
+
+.plan{
+  float: left;
 }
 
 .top-icon{
@@ -251,4 +264,71 @@ main .checkbox input{
   color: blue;
   font-family: "Font Awesome 5 Free";
   content: "\f00c";
+}
+
+.plan-lower{
+  width: 100%;
+  height: 270px;
+  border: 1px solid gray;
+  margin-bottom: 70px;
+}
+
+.plan-lower-content{
+  width: 70%;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.plan-lower-content h2{
+  font-size: 34px;
+}
+
+.plan-lower-content div{
+  margin-top: 20px;
+}
+
+.plan-lower-text{
+  margin-top: 50px;
+}
+
+.plan-lower-button{
+  width: 30%;
+}
+
+.plan-lower-content, .plan-lower-button{
+  float: left;
+}
+
+#btn-sales-office{
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* MIDDLE MAIN */
+.middleimg{
+  width: 50%;
+}
+
+.middleimg img{
+  width: 100%;
+}
+
+.middle-text{
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 70px;
+}
+
+.middleimg, .middle-text{
+  float: left;
+}
+
+.middle-title{
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.middle-content{
+  margin-bottom: 40px;
 }
