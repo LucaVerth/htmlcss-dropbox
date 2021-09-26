@@ -19,6 +19,22 @@ body{
   margin: 0 auto;
 }
 
+.line:after{
+  width: 60px;
+  margin: 40px 0;
+  content: "";
+  display: block;
+  border-bottom: 1px solid grey;
+}
+
+.line.extra:after{
+  width: 100%;
+  margin: 40px 0;
+  content: "";
+  display: block;
+  border-bottom: 1px solid grey;
+}
+
 /* buttons settings */
 .btn{
   color: #fff;
@@ -236,14 +252,6 @@ main .checkbox input{
 
 .card-button{
   margin-bottom: 30px;
-}
-
-.line:after{
-  width: 60px;
-  margin: 40px 0;
-  content: "";
-  display: block;
-  border-bottom: 1px solid grey;
 }
 
 .plan-bot-sec span{
@@ -471,6 +479,11 @@ section .top-clients ,.banner-clients{
 }
 
 /* banner clients */
+.banner-clients{
+  background-color: #B4D0E7;
+  margin-bottom: 100px;
+}
+
 .bot-banner-title{
   width: 50%;
   height: 40vh;
@@ -488,6 +501,31 @@ section .top-clients ,.banner-clients{
   float: left;
 }
 
-.banner-clients{
-  background-color: #B4D0E7;
+/* faq section */
+#faq{
+  font-size: 40px;
+  font-weight: bold;
 }
+
+.faq-text{
+  font: 18px;
+  font-weight: 700;
+}
+
+.faq-drop a{
+  float: right;
+  color: #000;
+}
+
+.details, .show, .hide:target{
+  display: none;
+}
+
+.hide:target + .show, .hide:target ~ .details {
+  display: block;
+}
+
+.details{
+  margin-top: 20px;
+}
+
