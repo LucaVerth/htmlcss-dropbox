@@ -381,7 +381,6 @@ main .checkbox input{
 .clients{
   width: 100vw;
   height: 60vw;
-  background-color: red;
 }
 
 section .top-clients ,.banner-clients{
@@ -391,13 +390,13 @@ section .top-clients ,.banner-clients{
 
 .side-boxes1, .side-boxes2{
   width: 30vw;
-  height: 100%;
+  height: 60vh;
   background-color: red;
 }
 
 .middle-box{
   width: 40vw;
-  height: 100%;
+  height: 60vh;
   background-color: royalblue;
 }
 
@@ -409,6 +408,25 @@ section .top-clients ,.banner-clients{
   float: right;
 }
 
+.left-box, .right-box, .left-box2, .right-box2{
+  width: calc(100% / 2);
+  height: 30vh;
+}
+
+.left-box, .right-box, .left-box2, .right-box2{
+  float: left;
+}
+
+.box-content{
+  text-align: center;
+  line-height: 30vh;
+}
+
+.box-content img{
+  width: 50%;
+  vertical-align: middle;
+  filter: invert(1);
+}
 
 
 
@@ -422,3 +440,13 @@ section .top-clients ,.banner-clients{
 .left-box{
   background-color: tomato;
 }
+.right-box{
+  background-color: seagreen;
+}
+.left-box2{
+  background-color:blueviolet
+}
+.right-box2{
+  background-color: blue;
+}
+
