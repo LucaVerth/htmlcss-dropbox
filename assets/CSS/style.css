@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-  width: 60%;
+  width: 60vw;
   margin: 0 auto;
 }
 
@@ -380,26 +380,25 @@ main .checkbox input{
 /* clients section */
 .clients{
   width: 100vw;
-  height: 60vw;
+  /* height: 60vw; */
 }
 
 section .top-clients ,.banner-clients{
   width: 100%;
-  height: 50%;
 }
 
 .side-boxes1, .side-boxes2{
   width: 30vw;
   height: 60vh;
-  background-color: red;
 }
 
 .middle-box{
   width: 40vw;
   height: 60vh;
-  background-color: royalblue;
+  overflow: scroll;
 }
 
+/* side bars client */
 .side-boxes1, .middle-box{
   float: left;
 }
@@ -428,25 +427,67 @@ section .top-clients ,.banner-clients{
   filter: invert(1);
 }
 
+/* colors boxes */
+ .b1{
+   background-color: #A2D39B;
+ }
+ .b2{
+   background-color: #61082C;
+ }
+ .b3{
+   background-color: #1C93CE;
+ }
+ .b4{
+   background-color: #F91D1D;
+ }
+ .b5{
+   background-color: #D5011F;
+ }
+ .b6{
+   background-color: #B4D0E7;
+ }
+ .b7{
+   background-color: #0D2481;
+ }
+ .b8{
+   background-color: #FDD82F;
+ }
 
-
-
-.top-clients{
-  background-color: teal;
+/* center section client */
+.mid-container{
+  width: 80%;
+  margin: 0 auto;
+  height: inherit;
+  background-color: #fff;
 }
+
+.mid-container img{
+  width: 30%; 
+  padding-top: 50px;
+}
+
+.mid-container div:last-child{
+  margin-top: 40px;
+}
+
+/* banner clients */
+.bot-banner-title{
+  width: 50%;
+  height: 40vh;
+  padding-top: 100px;
+  font-size: 50px;
+  color: #61082C;
+  margin-right: 20px;
+}
+
+.banner-button{
+  padding-top: 120px;
+}
+
+.bot-banner-title, .banner-button{
+  float: left;
+}
+
 .banner-clients{
-  background-color: yellow;
+  background-color: #B4D0E7;
 }
-.left-box{
-  background-color: tomato;
-}
-.right-box{
-  background-color: seagreen;
-}
-.left-box2{
-  background-color:blueviolet
-}
-.right-box2{
-  background-color: blue;
-}
-
