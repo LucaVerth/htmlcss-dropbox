@@ -365,3 +365,60 @@ main .checkbox input{
 .row .column h2{
   padding-bottom: 30px;
 }
+
+/* sponsor and teams sections */
+.section-message{
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.section-message h2{
+  font-size: 1.5vw;
+  padding-bottom: 50px;
+}
+
+/* clients section */
+.clients{
+  width: 100vw;
+  height: 60vw;
+  background-color: red;
+}
+
+section .top-clients ,.banner-clients{
+  width: 100%;
+  height: 50%;
+}
+
+.side-boxes1, .side-boxes2{
+  width: 30vw;
+  height: 100%;
+  background-color: red;
+}
+
+.middle-box{
+  width: 40vw;
+  height: 100%;
+  background-color: royalblue;
+}
+
+.side-boxes1, .middle-box{
+  float: left;
+}
+
+.side-boxes2{
+  float: right;
+}
+
+
+
+
+
+.top-clients{
+  background-color: teal;
+}
+.banner-clients{
+  background-color: yellow;
+}
+.left-box{
+  background-color: tomato;
+}
