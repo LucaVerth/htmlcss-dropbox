@@ -124,7 +124,6 @@ header{
 }
 
 .right-head-button{
-  
   padding: 0 30px;
 }
 
@@ -526,21 +525,19 @@ section .top-clients ,.banner-clients{
   font-weight: 700;
 }
 
-.faq-drop a{
+.faq-drop i{
   float: right;
-  color: #000;
+  padding-right: 10px;
 }
 
-.details, .show, .hide:target{
-  display: none;
-}
-
-.hide:target + .show, .hide:target ~ .details {
+.faq-text i:hover + .details1{
   display: block;
 }
 
-.details{
+.details1{
+  display: none;
   margin-top: 20px;
+  padding-right: 50px;
 }
 
 /* FOOTER */
